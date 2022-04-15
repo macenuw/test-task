@@ -39,7 +39,7 @@ function styles() {
 
 function scripts() {
     return src([
-            'node_modules/jquery/dist/jquery.js',
+            // 'node_modules/jquery/dist/jquery.js',
             'app/js/main.js'
         ])
         .pipe(concat('main.min.js'))
@@ -107,15 +107,3 @@ exports.cleanDist = cleanDist;
 
 exports.build = series(cleanDist, images, build);
 exports.default = parallel(styles, scripts, browsersync, watching);
-
-
-
-
-
-
-
-
-
-// function (){
-//     return
-// }

@@ -1,3 +1,7 @@
-body{
-    background-color: red;
-}
+@import'global/reset';
+@import'global/fonts';
+@import'global/global';
+
+// BLOCKS
+@import "./blocks/header.scss";
+// @import "./blocks/form.scss";
