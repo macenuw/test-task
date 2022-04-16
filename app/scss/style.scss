@@ -4,4 +4,14 @@
 
 // BLOCKS
 @import "./blocks/header.scss";
-// @import "./blocks/form.scss";
+@import "./blocks/form.scss";
+@import "./blocks/news.scss";
+@import "./blocks/gallery.scss";
+@import "./blocks/info.scss";
+
+// components
+@import "./components/language.scss";
+@import "./components/logo.scss";
+@import "./components/menu.scss";
+@import "./components/label.scss";
+@import "./components/card.scss";

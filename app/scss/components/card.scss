@@ -1,0 +1,35 @@
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  background-color: #fff;
+
+  @media (max-width: 980px) {
+    margin-bottom: 20px;
+  }
+
+  &__img-inner {
+    width: 100%;
+    height: 170px;
+    background-color: #969696;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    padding: 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    font-size: 18px;
+  }
+
+  &__text {
+    hyphens: manual;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+  }
+}

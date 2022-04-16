@@ -8,50 +8,156 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
-<body>
+<body style="background-image: url('./images/body-bg.png');">
     <header class="header">
-        <div class="header__lang language container">
-            <ul class="language__list">
-                <li class="language__item">
-                    <button class="language__btn">Eng</button>
-                </li>
-                <li class="language__item">
-                    <button class="language__btn">Aze</button>
-                </li>
-                <li class="language__item">
-                    <button class="language__btn">Рус</button>
-                </li>
-            </ul>
+        <div class="header__lang">
+            <div class="language container">
+                <ul class="language__list">
+                    <li class="language__item">
+                        <button class="language__btn">Eng</button>
+                    </li>
+                    <li class="language__item">
+                        <button class="language__btn">Aze</button>
+                    </li>
+                    <li class="language__item">
+                        <button class="language__btn">Рус</button>
+                    </li>
+                </ul>
+            </div>
         </div>
         <nav class="header__content">
             <div class="header__inner container">
                 <a href="#" class="header__logo logo">
                     <span class="logo__content">Logo</span>
                 </a>
-                <ul class="header__menu menu">
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">lorem ipsum dolor sit</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">lorem ipsum dolor </a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">lorem ipsum dolor </a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">lorem ipsum</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">lorem ipsum dolor sit amet, connetctetur adipiscing</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">lorem ipsum dolor sit</a>
-                    </li>
-                </ul>
+                <div class="header__menu">
+                    <a href="#" class="header__link">lorem ipsum dolor sit</a>
+                    <a href="#" class="header__link">lorem ipsum dolor </a>
+                    <a href="#" class="header__link">lorem ipsum dolor </a>
+                    <a href="#" class="header__link">lorem ipsum</a>
+                    <a href="#" class="header__link">lorem ipsum dolor sit amet, connetctetur adipiscing</a>
+                    <a href="#" class="header__link">lorem ipsum dolor sit</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="header__menu-inner">
+                    <button class="header__menu-btn" id="menu-btn">меню</button>
+                    <ul class="menu" id="menu">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">пункт меню</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">длинный пункт меню</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">очень длинный пунтк меню</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">еще пункт</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">п. меню</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
-
+    <main>
+        <section class="form container">
+            <div class="form__inner">
+                <form action="#" class="form__form">
+                    <h2 class="form__title">Form</h2>
+                    <label for="name" class="label label--full">
+                        <span class="label__text">Label #1</span>
+                        <input type="text" id="name" class="label__input">
+                    </label>
+                    <label for="last-name" class="label">
+                        <span class="label__text">Label #2</span>
+                        <input type="text" id="last-name" class="label__input">
+                    </label>
+                    <label for="tel" class="label">
+                        <span class="label__text">Label #3</span>
+                        <input type="text" id="tel" class="label__input">
+                    </label>
+                    <label for="password" class="label">
+                        <span class="label__text">Label #4</span>
+                        <input type="text" id="password" class="label__input">
+                    </label>
+                    <label for="password-again" class="label">
+                        <span class="label__text">Label #5</span>
+                        <input type="text" id="password-again" class="label__input">
+                    </label>
+                    <button type="submit" class="form__submit btn">submit</button>
+                </form>
+                <div class="form__info">
+                    <p class="form__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et </p>
+                    <p class="form__subtext">Ut enim ad minim veniam, quis nostrud exercitation</p>
+                    <a href="#" class="form__link btn">more</a>
+                </div>
+            </div>
+        </section>
+        <div class="news container">
+            <article class="card">
+                <div class="card__img-inner">
+                </div>
+                <h3 class="card__title">Lorem ipsum dolor sit </h3>
+                <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                </p>
+            </article>
+            <article class="card">
+                <div class="card__img-inner">
+                </div>
+                <h3 class="card__title">Lorem ipsum</h3>
+                <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+            </article>
+            <article class="card">
+                <div class="card__img-inner">
+                </div>
+                <h3 class="card__title">Lorem ipsum dolor</h3>
+                <p class="card__text">Lorem ipsum dolor sit amet, consectetur adip<wbr>isicing elit, sed do eiusmod tempor
+                    Lorem
+                </p>
+            </article>
+        </div>
+        <div class="gallery container">
+            <div class="gallery__item"></div>
+            <div class="gallery__item"></div>
+            <div class="gallery__item"></div>
+            <div class="gallery__item"></div>
+            <div class="gallery__item"></div>
+            <div class="gallery__item"></div>
+            <div class="gallery__item"></div>
+            <div class="gallery__item"></div>
+            <div class="gallery__item"></div>
+            <div class="gallery__item"></div>
+            <div class="gallery__item"></div>
+            <div class="gallery__item"></div>
+            <div class="gallery__link-inner">
+                <a href="#" class="gallery__link">more</a>
+            </div>
+        </div>
+        <div class="info container">
+            <div class="info__inner ">
+                <div class="info__row info__row--border">
+                    <div class="info__item"></div>
+                    <div class="info__item"></div>
+                    <div class="info__item"></div>
+                </div>
+                <div class="info__row">
+                    <div class="info__item"></div>
+                    <div class="info__item"></div>
+                    <div class="info__item"></div>
+                </div>
+                <div class="info__row">
+                    <div class="info__item info__item--border-full"></div>
+                    <div class="info__item info__item--border-biger"></div>
+                    <div class="info__item info__item--border-full"></div>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="js/main.min.js"></script>
 </body>
 
