@@ -82,7 +82,10 @@
   }
 
   &__menu-btn {
+    display: none;
+
     @media (max-width: 980px) {
+      display: block;
       background-color: #616161;
       border: none;
       border-bottom: 3px solid #fff;
